@@ -2,12 +2,12 @@
 # 🔐 Bluetooth-Based Secure Locker with Access Logging
 
 A secure embedded locker system built on the LPC2148 ARM7 microcontroller featuring Bluetooth authentication, keypad-based verification, EEPROM credential storage, RTC-based event management, access logging, alarm support, and motorized lock control.
-
+2r
 ---
 
 ## 📖 Overview
 
-This project implements a secure electronic locker using a dual-factor authentication mechanism. Access is granted only after successful Bluetooth and keypad verification. User credentials are stored in non-volatile EEPROM memory, ensuring persistence across power cycles.
+This project implements a secure electronic locker using a dual-factor authentication mechanism. Access is granted only after successful Bluetooth and keypad verification. User credentials are stored in non-volatile EEPROM memory, ensuring persistence across power cycles.t c
 
 The system integrates multiple embedded peripherals including UART communication, I²C EEPROM storage, RTC timekeeping, LCD user interaction, keypad input, buzzer alerts, interrupt-driven administration, and motorized locking.
 
@@ -35,7 +35,6 @@ The system integrates multiple embedded peripherals including UART communication
 ---
 
 ## 🏗 System Architecture
-
 ```text
                     +-------------------+
                     |   Mobile Device   |
@@ -58,7 +57,7 @@ The system integrates multiple embedded peripherals including UART communication
 |                                                |
 |  UART1  <----> HC-05 Bluetooth Module          |
 |  I²C    <----> AT24C256 EEPROM                 |
-|  RTC    <----> Time & Date Management          |
+|  RTC    <----> Time \\\& Date Management          |
 |  GPIO   <----> LCD Display                     |
 |  GPIO   <----> 4x4 Keypad                      |
 |  GPIO   <----> Buzzer                          |
@@ -73,7 +72,7 @@ The system integrates multiple embedded peripherals including UART communication
              Motorized Lock System
 ```
 
----
+
 
 ## 🔒 Authentication Flow
 
