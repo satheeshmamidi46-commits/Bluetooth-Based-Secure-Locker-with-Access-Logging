@@ -604,23 +604,6 @@ Check [CHANGELOG.md](CHANGELOG.md) for the current roadmap.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are **welcome and encouraged**! Whether it's fixing a bug, improving documentation, or adding a feature — please read [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
-
-1. Fork the repo 🍴
-2. Create your branch (`git checkout -b feat/amazing-feature`)
-3. Commit your changes (`git commit -m "feat: add amazing feature"`)
-4. Push and open a Pull Request 🚀
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — you're free to use, modify, and share it. See the [LICENSE](LICENSE) file for full details.
-
----
-
 <p align="center">
   <i>Built with ❤️ for embedded systems learning — LPC2148 · ARM7 · Keil MDK · HC-05</i><br/>
   ⭐ <b>If this project helped you, please give it a star!</b> ⭐
