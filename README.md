@@ -177,7 +177,7 @@ PC : "Status : FAILED / Reason : Invalid Bluetooth Password"
 | **Buzzer** | P0.11 |
 | **Admin button (EINT1)** | P0.14 (falling edge, 10 kΩ pull-up) |
 
-> ⚠️ **Beginner warning — pin conflict:** The code header lists **UART1 TXD = P0.8**, which is the **same pin as LCD data line D0**. Check your actual board wiring and `uart1.c` before assembling. See the [Hardware Guide](docs/Hardware.md) for details.
+> ⚠️ **Beginner warning — pin conflict:** The code header lists **UART1 TXD = P0.8**, which is the **same pin as LCD data line D0**. Check your actual board wiring and `uart1.c` before assembling.
 
 ### Key Wiring Rules for Beginners
 
@@ -185,8 +185,6 @@ PC : "Status : FAILED / Reason : Invalid Bluetooth Password"
 - ⚡ **HC-05 RXD pin is 3.3 V logic** — use a simple voltage divider (1 kΩ / 2 kΩ) from the MCU's 5 V TX line to be safe.
 - 🌍 **All grounds must be connected together** (MCU, motor supply, HC-05, everything).
 - 🔩 The AT24C256 module (HW-669) already has I2C pull-up resistors onboard — no extras needed.
-
-📄 **Full wiring diagrams for every module:** [docs/Hardware.md](docs/Hardware.md)
 
 ---
 
