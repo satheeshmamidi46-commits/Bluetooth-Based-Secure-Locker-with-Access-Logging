@@ -589,7 +589,6 @@ This project is a fantastic learning resource covering:
 - [ ] Password masking (`*` on LCD while typing)
 - [ ] Store access log history in EEPROM, not just UART stream
 
-Check [CHANGELOG.md](CHANGELOG.md) for the current roadmap.
 
 ---
 
