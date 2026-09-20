@@ -594,10 +594,10 @@ This project is a fantastic learning resource covering:
 
 | Document | Contents |
 |----------|----------|
-| [docs/Components]| 📚 **Deep-dive into every component** — I2C, HC-05, L293D, LCD, keypad, EEPROM, RTC, interrupts — theory + project implementation |
-| [docs/Hardware]| Full BOM, wiring diagrams, power notes, troubleshooting |
-| [CONTRIBUTING]| How to report bugs and submit improvements |
-| [CHANGELOG]| Version history and planned features |
+| Components| 📚 **Deep-dive into every component** — I2C, HC-05, L293D, LCD, keypad, EEPROM, RTC, interrupts — theory + project implementation |
+| Hardware| Full BOM, wiring diagrams, power notes, troubleshooting |
+| CONTRIBUTING| How to report bugs and submit improvements |
+| CHANGELOG| Version history and planned features |
 
 ---
 
